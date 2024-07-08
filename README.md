@@ -6,6 +6,13 @@ The BMI (Body Mass Index) Calculator Web App is a simple and user-friendly appli
 ## Prerequisites
 N/A
 
+## Features
+* User-friendly interface for inputting height and weight.
+* Accurate BMI calculation.
+* Displays BMI category (Underweight, Normal weight, Overweight, Obesity).
+* Responsive design for mobile and desktop use.
+* Clear and concise result display.
+
 ## Technologies Used
 Built with:
 * HTML
@@ -16,7 +23,10 @@ Built with:
 N/A
 
 ## Usage
-N/A
+* Open the BMI Calculator web application in your browser.
+* Enter your height and weight in the provided input fields.
+* Click the "Compute BMI" button.
+* View your BMI and it classification displayed on the screen.
 
 ## Project Link
 Application can can be viewed here: 
