@@ -1,48 +1,82 @@
-body{
+/* Reset default margin and set background color to black */
+body {
   margin: 0;
   background-color: #000000;
+  
+  /* Use flexbox to center content */
   display: flex;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
+  min-height: 100vh; /* Ensures full viewport height */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+
+  /* Set font family */
   font-family: 'Courier New', Courier, monospace;
 }
 
-.container{
-  background: navy;
-  color: white;
-  padding: 20px;
+/* Styling for the main container */
+.container {
+  background: navy; /* Dark blue background */
+  color: white; /* White text */
+  padding: 20px; /* Adds space inside the container */
+  
+  /* Flexbox layout to align items in a column */
   display: flex;
   flex-direction: column;
+  
+  /* Rounded corners */
   border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0,0,0,.3);
+  
+  /* Adds shadow for a slight 3D effect */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  
+  /* Small margin for spacing */
   margin: 5px;
 }
 
-.heading{
+/* Styling for the heading */
+.heading {
   font-size: 30px;
 }
 
-.input{
+/* Input fields styling */
+.input {
   padding: 10px 20px;
   font-size: 18px;
-  border-color: rgba(255,255,255, .5);
+  
+  /* Semi-transparent white border */
+  border-color: rgba(255, 255, 255, 0.5);
+  
+  /* Text color inside input fields */
   color: black;
+  
+  /* Adds margin around input fields */
   margin: 10px;
 }
 
-.btn{
-  background-color: purple;
-  border: none;
-  padding: 10px 20px;
+/* Styling for the button */
+.btn {
+  background-color: purple; /* Button background color */
+  border: none; /* Removes border */
+  padding: 10px 20px; /* Adds padding for a larger clickable area */
+  
+  /* Rounded corners */
   border-radius: 5px;
+  
+  /* Adds margin for spacing */
   margin: 10px;
+  
+  /* Increases text size */
   font-size: 20px;
-  box-shadow: 0 0 4px rgba(0,0,0,.3);
+  
+  /* Adds a subtle shadow effect */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  
+  /* Changes cursor to pointer on hover */
   cursor: pointer;
 }
 
-.info-text{
+/* Styling for the informational text */
+.info-text {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 500; /* Medium font weight */
 }

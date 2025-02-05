@@ -2,30 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-     <!--Added meta viewport for mobile and monitor accessibility-->
+    <!-- Added meta viewport for better mobile and desktop responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title -->
     <title>BMI Calculator</title>
-     <!--CSS Stylesheet-->
+
+    <!-- Linking external CSS stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-     <!--Container-->
+    <!-- Main container for the BMI Calculator -->
     <div class="container">
-         <!--Header-->
+        
+        <!-- Page heading -->
         <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
-         <!--Height-->
-        Your Height (cm):
+        
+        <!-- Input field for height (default value set to 180 cm) -->
+        <label for="height">Your Height (cm):</label>
         <input type="number" class="input" id="height" value="180" placeholder="Enter your height in cm">
-         <!--Weight-->
-        Your Weight (kg):
+        
+        <!-- Input field for weight (default value set to 80 kg) -->
+        <label for="weight">Your Weight (kg):</label>
         <input type="number" class="input" id="weight" value="80" placeholder="Enter your weight in kg">
-         <!--Compute BMI Button-->
+        
+        <!-- Button to trigger BMI calculation -->
         <button class="btn" id="btn">Compute BMI</button>
+        
+        <!-- Disabled input field to display the calculated BMI result -->
         <input disabled type="text" class="input" id="bmi-result">
+        
+        <!-- Text to display the weight condition based on BMI result -->
         <h4 class="info-text">Weight Condition: <span id="weight-condition"></span></h4>
     </div>
-     <!--JavaScript-->
+
+    <!-- Linking external JavaScript file for BMI calculations -->
     <script src="./assets/js/index.js"></script>
 </body>
 </html>
