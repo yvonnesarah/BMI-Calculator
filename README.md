@@ -1,48 +1,51 @@
 # BMI-Calculator
 
-## Description
-The BMI (Body Mass Index) Calculator Web App is a simple and user-friendly application designed to help users calculate their BMI. Built with HTML, CSS, and JavaScript, this web app provides an intuitive interface for users to input their height and weight and instantly get their BMI results along with a brief interpretation.
+## 📌 Description
+The BMI (Body Mass Index) Calculator is a simple and user-friendly web application designed to help users calculate their BMI. Built with HTML, CSS, and JavaScript, this app provides an intuitive interface where users can input their height and weight to instantly receive their BMI results along with a brief interpretation.
 
-## Prerequisites
+## 🛠 Prerequisites
 N/A
 
-## Features
-* User-friendly interface for inputting height and weight.
-* Accurate BMI calculation.
-* Displays BMI category (Underweight, Normal weight, Overweight, Obesity).
-* Responsive design for mobile and desktop use.
-* Clear and concise result display.
+## 📋 Criteria
+* User-Friendly Interface – Easily input height and weight.
+* Accurate BMI Calculation – Computes BMI based on standard formulas.
+* BMI Classification – Displays category: Underweight, Normal weight, Overweight, or Obesity.
+* Responsive Design – Works seamlessly on both mobile and desktop devices.
+* Clear Results Display – Instant and concise output of BMI value and classification.
 
-## Technologies Used
-Built with:
+## 💻 Technologies Used
+This project was built using:
 * HTML
 * CSS
 * JavaScript
 
-## Installation
-N/A
+## 🚀 Installation
+No installation required. Simply open the web application in your browser.
 
-## Usage
-* Open the BMI Calculator web application in your browser.
-* Enter your height and weight in the provided input fields.
-* Click the "Compute BMI" button.
-* View your BMI and it classification displayed on the screen.
+## 📚 Usage
+1. Open the BMI Calculator web application in your browser.
+2. Enter your height and weight in the provided input fields.
+3. Click the "Compute BMI" button.
+4. View your BMI value and its corresponding classification displayed on the screen.
 
-## Project Link
-Application can can be viewed here: 
+## 🔗 Live Demo & Repository
+Application can be viewed here:
 * [Live](https://yvonnesarah.github.io/BMI-Calculator/)
 
 * [Repository](https://github.com/yvonnesarah/BMI-Calculator)
 
-## Screenshot(S)
-BMI Calculator
+## 🖼 Screenshot(S)
+BMI Calculator Interface
 ![Screenshot](assets/images/bmi-calculator.png "BMI Calculator")
 
-BMI Calculator Example
+BMI Calculation Example
 ![Screenshot](assets/images/bmi-calculator-example.png "BMI Calculator Example")
 
-## Credit
+## 👥 Credit
 N/A
 
-## Licence
-Please refer to the LICENSE in the repo.
+## 📜 License
+This project is open-source. For licensing details, please refer to the LICENSE file in the repository.
+
+## 📬 Contact
+You can reach me at 📧 yvonneadedeji.sarah@gmail.com.
