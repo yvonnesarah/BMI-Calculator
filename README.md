@@ -4,7 +4,7 @@
 The BMI (Body Mass Index) Calculator is a simple and user-friendly web application designed to help users calculate their BMI. Built with HTML, CSS, and JavaScript, this app provides an intuitive interface where users can input their height and weight to instantly receive their BMI results along with a brief interpretation.
 
 ## 🛠 Prerequisites
-N/A
+* A modern web browser (Chrome, Firefox, Safari, Edge)
 
 ## 📋 Features
 * User-Friendly Interface – Easily input height and weight.
@@ -41,8 +41,16 @@ BMI Calculator Interface
 BMI Calculation Example
 ![Screenshot](assets/images/bmi-calculator-example.png "BMI Calculator Example")
 
+## 🚀 Future Improvements
+To enhance the functionality and user experience of the BMI Calculator, the following improvements are planned:
+* 📊 Detailed Health Insights – Provide personalized recommendations based on BMI results.
+* 🌐 Unit Conversion – Allow users to input height and weight in different units (e.g., pounds/inches, kilograms/meters).
+* 🧮 History Tracking – Store previous BMI calculations for tracking over time.
+* 🎨 Theme Customization – Offer light/dark mode or color themes for better accessibility.
+* 📱 Mobile Optimization – Further refine UI/UX for mobile and tablet devices.
+
 ## 👥 Credit
-N/A
+Developed by Yvonne Adedeji.
 
 ## 📜 License
 This project is open-source. For licensing details, please refer to the LICENSE file in the repository.
