@@ -6,7 +6,7 @@ The BMI (Body Mass Index) Calculator is a simple and user-friendly web applicati
 ## 🛠 Prerequisites
 N/A
 
-## 📋 Criteria
+## 📋 Features
 * User-Friendly Interface – Easily input height and weight.
 * Accurate BMI Calculation – Computes BMI based on standard formulas.
 * BMI Classification – Displays category: Underweight, Normal weight, Overweight, or Obesity.
