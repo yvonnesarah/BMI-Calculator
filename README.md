@@ -35,22 +35,39 @@ Application can be viewed here:
 * [Repository](https://github.com/yvonnesarah/BMI-Calculator)
 
 ## 🖼 Screenshot(S)
+Before Design
+
 BMI Calculator Interface
-![Screenshot](assets/images/bmi-calculator.png "BMI Calculator")
+![Screenshot](assets/images/before/bmi-calculator.png "BMI Calculator")
 
 BMI Calculation Example
-![Screenshot](assets/images/bmi-calculator-example.png "BMI Calculator Example")
+![Screenshot](assets/images/before/bmi-calculator-example.png "BMI Calculator Example")
+
+After Design
+
+BMI Calculator Interface
+![Screenshot](assets/images/after/bmi-calculator.png "BMI Calculator")
+
+BMI Calculation Example
+![Screenshot](assets/images/after/bmi-calculator-example.png "BMI Calculator Example")
+
+BMI Calculation Example - Dark Theme
+![Screenshot](assets/images/after/bmi-calculator-example-dark-theme.png "BMI Calculator - Dark Theme")
+
 
 ## 🚀 Future Improvements
 To enhance the functionality and user experience of the BMI Calculator, the following improvements are planned:
-* 📊 Detailed Health Insights – Provide personalized recommendations based on BMI results.
-* 🌐 Unit Conversion – Allow users to input height and weight in different units (e.g., pounds/inches, kilograms/meters).
-* 🧮 History Tracking – Store previous BMI calculations for tracking over time.
-* 🎨 Theme Customization – Offer light/dark mode or color themes for better accessibility.
-* 📱 Mobile Optimization – Further refine UI/UX for mobile and tablet devices.
+* 🟢 BMI Formatting – Display BMI with 2 decimal places for better readability. ✅
+* 🆕 Reset Button – Add a button to clear inputs and results quickly. ✅
+* ⚠️ Input Validation – Alert users if height or weight is missing or invalid. ✅
+* 🎨 Color-Coded Results – Change text colour based on BMI category (underweight, normal, overweight, obesity). ✅
+* ✨ Button Animations – Add hover effects for buttons to improve interactivity. ✅
+* 📊 Detailed Health Insights – Provide personalized recommendations based on BMI results. ✅
+* 🎨 Theme Customization – Offer light/dark mode or colour themes for better accessibility. ✅
+* 📱 Mobile Optimization – Further refine UI/UX for mobile and tablet devices. ✅
 
 ## 👥 Credit
-Developed by Yvonne Adedeji.
+Designed and developed by Yvonne Adedeji.
 
 ## 📜 License
 This project is open-source. For licensing details, please refer to the LICENSE file in the repository.
