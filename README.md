@@ -104,9 +104,9 @@ BMI Analytics
 
 ## 🔗 Live Demo & Repository
 Application can be viewed here:
-* [Live](https://yvonnesarah.github.io/BMI-Calculator/)
+* [Live](https://yvonnesarah.github.io/Fitness-Web-App/)
 
-* [Repository](https://github.com/yvonnesarah/BMI-Calculator)
+* [Repository](https://github.com/yvonnesarah/Fitness-Web-App)
 
 ## 🖼 Screenshot(S)
 Before Design
