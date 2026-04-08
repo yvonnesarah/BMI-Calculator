@@ -2,42 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Added meta viewport for better mobile and desktop responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Page title -->
     <title>BMI Calculator</title>
-
-    <!-- Linking external CSS stylesheet -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body>
-    <!-- Main container for the BMI Calculator -->
+<body class="light-theme">
     <div class="container">
-        
-        <!-- Page heading -->
         <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
-        
-        <!-- Input field for height (default value set to 180 cm) -->
+
         <label for="height">Your Height (cm):</label>
         <input type="number" class="input" id="height" value="180" placeholder="Enter your height in cm">
-        
-        <!-- Input field for weight (default value set to 80 kg) -->
+
         <label for="weight">Your Weight (kg):</label>
         <input type="number" class="input" id="weight" value="80" placeholder="Enter your weight in kg">
-        
-        <!-- Button to trigger BMI calculation -->
-        <button class="btn" id="btn">Compute BMI</button>
-        
-        <!-- Disabled input field to display the calculated BMI result -->
-        <input disabled type="text" class="input" id="bmi-result">
-        
-        <!-- Text to display the weight condition based on BMI result -->
+
+        <div class="button-group">
+            <button class="btn" id="btn">Compute BMI</button>
+            <button class="btn reset-btn" id="reset-btn">Reset</button>
+        </div>
+
+        <input disabled type="text" class="input" id="bmi-result" placeholder="Your BMI will appear here">
+
         <h4 class="info-text">Weight Condition: <span id="weight-condition"></span></h4>
+        <p class="health-insight" id="health-insight"></p>
+
+        <div class="theme-toggle">
+            <label>
+                <input type="checkbox" id="theme-switch"> Dark Mode
+            </label>
+        </div>
     </div>
 
-    <!-- Linking external JavaScript file for BMI calculations -->
-    <script src="./assets/js/index.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
