@@ -66,6 +66,30 @@ To enhance the functionality and user experience of the BMI Calculator, the foll
 * 🎨 Theme Customization – Offer light/dark mode or colour themes for better accessibility. ✅
 * 📱 Mobile Optimization – Further refine UI/UX for mobile and tablet devices. ✅
 
+## 🆕 Upcoming Enhancements
+Age & Gender Consideration
+* Age input: Adjust BMI interpretation for age-specific ranges ✅
+* Gender input: Tailor health advice and BMI evaluation based on gender ✅
+* Enhanced insights: Show personalized health messages considering age and gender ✅
+
+Advanced Health Metrics
+* Body fat calculator: Estimate body fat percentage based on BMI, age, and gender ✅
+* Ideal weight range: Suggest target weight range for the user’s height based on BMI and height ✅
+
+Visual Feedback
+* Dynamic color-coded BMI meter: Instantly shows category through color changes ✅
+* Animated progress bar: Indicates BMI position within the healthy/target range ✅
+* Emoji/icon indicators: Fun visual feedback corresponding to weight condition ✅
+
+History & Tracking
+* LocalStorage: Save BMI results for historical tracking ✅
+
+Personalized Recommendations
+* Motivational messages: Encourage lifestyle improvements and goal setting ✅
+* Resource links: Provide trusted health websites or guides ✅
+
+## 🚀 Advanced Future Improvements (Professional Level)
+
 ## 👥 Credit
 Designed and developed by Yvonne Adedeji.
 
