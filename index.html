@@ -3,79 +3,98 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BMI Calculator</title>
+<title>Fitness Web App</title>
 <link rel="stylesheet" href="assets/css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-
 <body class="light-theme">
 
 <div class="container">
 
-<h1 class="heading">Body Mass Index (BMI) Calculator</h1>
+  <h1 class="heading">Fitness Web App</h1>
 
-<label>Age:</label>
-<input type="number" class="input" id="age" value="25">
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="bmi-tab">BMI Calculator</button>
+    <button class="tab-btn" data-tab="workout-tab">Workout Log</button>
+    <button class="tab-btn" data-tab="meal-tab">Meal Tracker</button>
+    <button class="tab-btn" data-tab="analytics-tab">BMI Analytics</button>
+  </div>
 
-<label>Gender:</label>
-<select class="input" id="gender">
-<option value="male">Male</option>
-<option value="female">Female</option>
-</select>
+  <!-- BMI Calculator -->
+  <div class="tab-content" id="bmi-tab">
+    <label>Age:</label>
+    <input type="number" class="input" id="age" value="25">
+    <label>Gender:</label>
+    <select class="input" id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <label>Height (cm):</label>
+    <input type="number" class="input" id="height" value="180">
+    <label>Weight (kg):</label>
+    <input type="number" class="input" id="weight" value="80">
+    <div class="button-group">
+      <button class="btn" id="btn">Compute BMI</button>
+      <button class="btn reset-btn" id="reset-btn">Reset</button>
+    </div>
+    <label>BMI Result:</label>
+    <input disabled type="text" class="input" id="bmi-result">
+    <label>Body Fat Percentage:</label>
+    <input disabled type="text" class="input" id="body-fat">
+    <label>Ideal Weight Range:</label>
+    <input disabled type="text" class="input" id="ideal-weight">
+    <h4 class="info-text">Weight Condition: <span id="weight-condition"></span></h4>
+    <p id="health-insight"></p>
+    <p id="recommendations"></p>
+    <div class="bmi-meter"><div id="bmi-progress"></div></div>
+    <h4>BMI History</h4>
+    <ul id="bmi-history"></ul>
 
-<label>Your Height (cm):</label>
-<input type="number" class="input" id="height" value="180">
+    <!-- Personalized Guidance -->
+    <div class="personalized-guidance">
+      <h4>Personalized Guidance</h4>
+      <p id="workout-plan"></p>
+      <p id="sample-meal-plan"></p>
+      <p id="health-alerts"></p>
+      <p id="fat-bmi-insights"></p>
+      <p id="age-gender-advice"></p>
+    </div>
+  </div>
 
-<label>Your Weight (kg):</label>
-<input type="number" class="input" id="weight" value="80">
+  <!-- Workout Log -->
+  <div class="tab-content" id="workout-tab" style="display:none;">
+    <h4>Workout Log</h4>
+    <textarea id="workout-log" placeholder="Log your workouts here..."></textarea>
+    <button class="btn" id="save-log">Save Log</button>
+    <ul id="workout-history"></ul>
+  </div>
 
-<div class="button-group">
-<button class="btn" id="btn">Compute BMI</button>
-<button class="btn reset-btn" id="reset-btn">Reset</button>
-</div>
+  <!-- Meal Tracker -->
+  <div class="tab-content" id="meal-tab" style="display:none;">
+    <h4>Meal Tracker</h4>
+    <textarea id="meal-log" placeholder="Log your meals including calories..."></textarea>
+    <button class="btn" id="save-meal">Save Meal</button>
+    <ul id="meal-history"></ul>
+    <h4>Daily Calorie Total: <span id="daily-calories">0</span> kcal</h4>
+    <div id="meal-recommendation"></div>
+  </div>
 
-<br>
+  <!-- Analytics -->
+  <div class="tab-content" id="analytics-tab" style="display:none;">
+    <h4>BMI Trend Analytics</h4>
+    <canvas id="bmiChart" width="400" height="200"></canvas>
+  </div>
 
-<label>BMI Result:</label>
-<input disabled type="text" class="input" id="bmi-result">
-
-<label>Body Fat Percentage:</label>
-<input disabled type="text" class="input" id="body-fat">
-
-<label>Ideal Weight Range:</label>
-<input disabled type="text" class="input" id="ideal-weight">
-
-<h4 class="info-text">
-Weight Condition: <span id="weight-condition"></span>
-</h4>
-
-<p id="health-insight"></p>
-<p id="recommendations"></p>
-
-<div class="bmi-meter">
-<div id="bmi-progress"></div>
-</div>
-
-<h4>BMI History</h4>
-<ul id="bmi-history"></ul>
-
-<div class="health-resources">
-<h4>Helpful Resources</h4>
-<ul>
-<li><a href="https://www.nhs.uk/live-well/healthy-weight/bmi-calculator/" target="_blank">NHS BMI Guide</a></li>
-<li><a href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" target="_blank">WHO Obesity Information</a></li>
-<li><a href="https://www.nhs.uk/live-well/eat-well/" target="_blank">Healthy Eating Advice</a></li>
-</ul>
-</div>
-
-<div class="theme-toggle">
-<label>
-<input type="checkbox" id="theme-switch"> Dark Mode
-</label>
-</div>
+  <!-- Theme Toggle -->
+  <div class="theme-toggle">
+    <label>
+      <input type="checkbox" id="theme-switch"> Dark Mode
+    </label>
+  </div>
 
 </div>
 
 <script src="assets/js/index.js"></script>
-
 </body>
 </html>
