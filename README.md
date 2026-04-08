@@ -1,4 +1,4 @@
-# BMI-Calculator
+# Fitness Web App
 
 ## 📌 Description
 The Fitness Web App is an advanced health and wellness application built using HTML, CSS, and JavaScript.
@@ -120,14 +120,28 @@ BMI Calculation Example
 After Design
 
 BMI Calculator Interface
+
 ![Screenshot](assets/images/after/bmi-calculator.png "BMI Calculator")
 
 BMI Calculation Example
+
 ![Screenshot](assets/images/after/bmi-calculator-example.png "BMI Calculator Example")
 
 BMI Calculation Example - Dark Theme
+
 ![Screenshot](assets/images/after/bmi-calculator-example-dark-theme.png "BMI Calculator - Dark Theme")
 
+Workout Log Interface
+
+![Screenshot](assets/images/after/workout-log.png "Workout Log")
+
+Meal Tracker Interface
+
+![Screenshot](assets/images/after/meal-tracker.png "Meal Tracker")
+
+BMI Trend Analytics Interface
+
+![Screenshot](assets/images/after/bmi-analytics.png "BMI Trend Analytics")
 
 ## 🚀 Future Improvements
 To enhance the functionality and user experience of the BMI Calculator, the following improvements are planned:
