@@ -143,8 +143,8 @@ BMI Trend Analytics Interface
 
 ![Screenshot](assets/images/after/bmi-analytics.png "BMI Trend Analytics")
 
-## 🚀 Future Improvements
-To enhance the functionality and user experience of the BMI Calculator, the following improvements are planned:
+## 🚀 🗺️ Roadmap (Planned Features)
+To enhance the functionality and user experience of the Fitness Web App, the following improvements are planned:
 * 🟢 BMI Formatting – Display BMI with 2 decimal places for better readability. ✅
 * 🆕 Reset Button – Add a button to clear inputs and results quickly. ✅
 * ⚠️ Input Validation – Alert users if height or weight is missing or invalid. ✅
@@ -154,29 +154,33 @@ To enhance the functionality and user experience of the BMI Calculator, the foll
 * 🎨 Theme Customization – Offer light/dark mode or colour themes for better accessibility. ✅
 * 📱 Mobile Optimization – Further refine UI/UX for mobile and tablet devices. ✅
 
-## 🆕 Upcoming Enhancements
-Age & Gender Consideration
+## 🚀 Upcoming Features
+These upcoming features aim to enhance the Fitness Web App’s usability, personalization, and visual feedback:
+
+👤 User Profile Inputs
 * Age input: Adjust BMI interpretation for age-specific ranges ✅
 * Gender input: Tailor health advice and BMI evaluation based on gender ✅
 * Enhanced insights: Show personalized health messages considering age and gender ✅
 
-Advanced Health Metrics
+📊 Advanced Health Calculations
 * Body fat calculator: Estimate body fat percentage based on BMI, age, and gender ✅
 * Ideal weight range: Suggest target weight range for the user’s height based on BMI and height ✅
 
-Visual Feedback
+🎨 Visual BMI Feedback
 * Dynamic color-coded BMI meter: Instantly shows category through color changes ✅
 * Animated progress bar: Indicates BMI position within the healthy/target range ✅
 * Emoji/icon indicators: Fun visual feedback corresponding to weight condition ✅
 
-History & Tracking
+🗂️ BMI History & Tracking
 * LocalStorage: Save BMI results for historical tracking ✅
 
-Personalized Recommendations
+Personalized Health Guidance
 * Motivational messages: Encourage lifestyle improvements and goal setting ✅
 * Resource links: Provide trusted health websites or guides ✅
 
-## 🚀 Advanced Future Improvements (Professional Level)
+## 🧠 Advanced Features (Professional Level)
+These enhancements aim to make the Fitness Web App more secure, professional, and user-friendly:
+
 Multi-Tab Interface
 * Switch between BMI Calculator, Workout Log, Meal Tracker, and BMI Analytics. ✅
 
