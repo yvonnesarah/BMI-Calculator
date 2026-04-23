@@ -103,11 +103,10 @@ BMI Analytics
 2. View the automatically generated BMI trend chart
 
 ## 🔗 Live Demo & Repository
-Application can be viewed here:
-* [Live](https://yvonnesarah.github.io/Fitness-Web-App/)
-
-* [Repository](https://github.com/yvonnesarah/Fitness-Web-App)
-
+Application can be viewed here: 
+* 🌐 Live: https://yvonnesarah.github.io/Fitness-Web-App/
+* 💻 Repository: https://github.com/yvonnesarah/Fitness-Web-App
+  
 ## 🖼 Screenshot(S)
 Before Design
 
