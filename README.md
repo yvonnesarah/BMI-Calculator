@@ -211,6 +211,25 @@ Bonus Features
 * Colour-coded BMI categories and context-aware alerts. ✅
 * Recent entries shown in reverse chronological order. ✅
 
+## 🧠 Challenges & Learnings
+🚧 Challenges Faced
+
+1. Managing and synchronizing multiple features (BMI calculator, workout log, meal tracker, analytics) within a single-page application using vanilla JavaScript.
+2. Implementing reliable data persistence using LocalStorage while ensuring data consistency across different app sections.
+3. Integrating and dynamically updating charts using Chart.js based on user inputs and historical BMI data.
+4. Ensuring accurate input validation for user health data (age, height, weight, and gender) to prevent incorrect calculations.
+5. Maintaining a responsive and consistent UI across mobile, tablet, and desktop devices.
+6. Structuring JavaScript logic without a framework while keeping the code organized and scalable.
+
+📚 Key Learnings
+
+1. Gained deeper understanding of DOM manipulation and state handling in vanilla JavaScript.
+2. Improved ability to design interactive and data-driven UI components.
+3. Learned how to effectively use LocalStorage for persistent user data tracking.
+4. Developed practical experience integrating data visualization tools (Chart.js) into real-world applications.
+5. Strengthened knowledge of UX principles, especially in providing clear feedback through color coding, alerts, and progress indicators.
+6. Enhanced problem-solving skills by debugging dynamic calculations and UI updates across multiple modules.
+
 ## 👥 Credit
 Designed and developed by Yvonne Adedeji.
 
